@@ -1,30 +1,31 @@
 {
-  "name": "ui5-test-i18n",
-  "version": "1.0.0",
-  "description": "A small cli that cross checks your ui5 message bundles for missing translations.",
-  "main": "index.js",
+  "name": "ui5-test-i18n-return-values",
+  "version": "1.0.6",
+  "description": "A small cli that cross checks your ui5 message bundles for missing translations, and also logs how the missing fields were translated in languages where they exist.",
+  "main": "cli.js",
   "scripts": {
-    "test": "ui5-test-i18n ./test/"
+    "test": "ui5-test-i18n-return-values ./test/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kellojo/ui5-test-i18n.git"
+    "url": "git+https://github.com/chrifuss-itelli/ui5-test-i18n"
   },
   "author": "",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Kellojo/ui5-test-i18n/issues"
+    "url": "https://github.com/chrifuss-itelli/ui5-test-i18n/issues"
   },
   "bin": {
-    "ui5-test-i18n": "./cli.js"
+    "ui5-test-i18n-return-values": "./cli.js"
   },
   "keywords": [
     "ui5",
     "test",
     "i18n",
+	"values",
     "cross-check"
   ],
-  "homepage": "https://github.com/Kellojo/ui5-test-i18n#readme",
+  "homepage": "https://github.com/chrifuss-itelli/ui5-test-i18n#readme",
   "dependencies": {
     "chalk": "^4.1.0",
     "properties-reader": "^2.2.0"
